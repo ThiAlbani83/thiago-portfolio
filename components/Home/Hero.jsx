@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -11,9 +12,9 @@ const Hero = () => {
           <span className="text-[#59F268]">ux/ui designer</span>
         </h1>
         <h4>He crafts responsive websites with technologies and creativity</h4>
-        <button className="border border-[#59F268] px-4 py-2 text-white mt-4 hidden md:flex active:scale-90 duration-200">
+        <Link href={"/contact"} className="border border-[#59F268] px-4 py-2 text-white mt-4 hidden md:flex active:scale-90 duration-200">
           Contact me !!
-        </button>
+        </Link>
       </div>
       <div className="w-[350px] md:w-full flex flex-col gap-5 items-center justify-center md:justify-end">
         <Image
@@ -22,9 +23,9 @@ const Hero = () => {
           width={470}
           height={390}
         />
-        <button className="border border-[#59F268] px-4 py-2 text-white mt-4 flex md:hidden w-full justify-center active:scale-90 duration-200">
+        <Link href={"/contact"} className="border border-[#59F268] px-4 py-2 text-white mt-4 flex md:hidden w-full justify-center active:scale-90 duration-200">
           Contact me !!
-        </button>
+        </Link>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -37,9 +38,9 @@ const About = () => {
         </div>
       </div>
       <div className="flex justify-center w-full md:-mt-10 md:justify-start">
-        <button className="font-medium border border-[#59F268] px-4 py-2 w-fit">
+        <Link href='/about' className="font-medium border border-[#59F268] px-4 py-2 w-fit">
           Read more {`-->`}
-        </button>
+        </Link>
       </div>
       <Image
         src={"/square-dots.png"}

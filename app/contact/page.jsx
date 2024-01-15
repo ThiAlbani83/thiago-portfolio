@@ -1,9 +1,14 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import ContactPage from "../../components/contact/ContactPage";
+
 
 const Contact = () => {
   return (
-    <div className='w-full flex px-5 sm:px-7 md:px-16 lg:px-24 xl:px-36 2xl:px-60 pt-10 items-center'>Contact</div>
-  )
-}
+    <div>
+      <ContactPage />
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
