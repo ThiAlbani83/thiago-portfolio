@@ -90,7 +90,7 @@ const UxDevProjects = () => {
           workingVisibility={"block"}
         />
         <ProjectCard
-          src={"/GPT3.png"}
+          src={"/gpt3.png"}
           alt="GPT3"
           width={384}
           height={283}
